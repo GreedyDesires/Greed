@@ -4,12 +4,16 @@ var titles = [
   "@G",
   "@Gr",
   "@Gre",
+  "@Gree",
   "@Greed",
-  "@Greed K",
-  "@Greed Ki",
-  "@Greed Kil",
-  "@Greed Kill",
-  "@Greed kills"
+  "@Greedy",
+  "@Greedy D",
+  "@Greedy De",
+  "@Greedy Des",
+  "@Greedy Desi",
+  "@Greedy Desir",
+  "@Greedy Desire",
+  "@Greedy Desires"
 ];
 
 // Function to change the title periodically
@@ -22,7 +26,7 @@ function changeTitle() {
       document.title = titles[index];
       // Increment the index and use modulo operator to ensure it stays within the bounds of the array
       index = (index + 1) % titles.length;
-  }, 1000); // Interval set to 1000 milliseconds (1 second)
+  }, 450); // Interval set to 1000 milliseconds (1 second)
 }
 
 // Call the function to start changing the title
